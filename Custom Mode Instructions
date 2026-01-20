@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Detection and Evasion of Headless Browser Automation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #0f1224;
+            color: #eaeaf0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1f4a, #2b2f77);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 1px solid #2f337a;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: #7aa2ff;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #cfd3ff;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: #151a3a;
+            border: 1px solid #252b6d;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #9db4ff;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #252b6d;
+            color: #9aa0ff;
+            font-size: 0.9rem;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #252b6d;
+            color: #cfd3ff;
+            padding: 4px 10px;
+            border-radius: 999px;
+            margin: 4px 6px 0 0;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Detection and Evasion of Headless Browser Automation</h1>
+    <p>Headless tarayıcıların tespiti ve kaçınma tekniklerinin teknik özeti</p>
+</header>
+
+<section>
+
+    <div class="card">
+        <h2>📌 Headless Browser Nedir?</h2>
+        <p>
+            Headless browser automation, grafik arayüzü olmadan çalışan tarayıcıların
+            (Puppeteer, Playwright, Selenium) web siteleri otomatik olarak test etmek,
+            veri çekmek ve etkileşim simülasyonu yapmak için kullanılmasıdır.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🔍 Başlıca Detection Teknikleri</h2>
+        <ul>
+            <li><b>navigator.webdriver</b> flag kontrolü</li>
+            <li><b>User-Agent</b> anormallikleri</li>
+            <li><b>Canvas / WebGL fingerprinting</b></li>
+            <li><b>Font & Plugin</b> sayımı</li>
+            <li><b>Mouse & Keyboard</b> davranış analizi</li>
+            <li><b>Headless Chrome</b> özellikleri</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🕵️ Evasion (Kaçınma) Teknikleri</h2>
+        <ul>
+            <li>webdriver flag gizleme</li>
+            <li>Gerçek User-Agent spoofing</li>
+            <li>Canvas / WebGL override</li>
+            <li>Human-like davranış simülasyonu</li>
+            <li>Stealth plugin kullanımı</li>
+            <li>Proxy & IP rotasyonu</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🧰 Kullanılan Araçlar</h2>
+        <div class="tag">Puppeteer</div>
+        <div class="tag">Playwright</div>
+        <div class="tag">Selenium</div>
+        <div class="tag">Undetected-Chromedriver</div>
+    </div>
+
+    <div class="card">
+        <h2>⚠️ Riskler ve Etik</h2>
+        <p>
+            Bot tespitini atlatmaya yönelik teknikler, hizmet şartlarını ihlal edebilir.
+            Hukuki yaptırımlara ve IP banlarına yol açabilir. Bu teknikler yalnızca
+            güvenlik araştırması ve test amaçlı kullanılmalıdır.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 - Detection and Evasion of Headless Browser Automation  
+</footer>
+
+</body>
+</html>
